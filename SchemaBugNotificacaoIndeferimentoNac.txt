@@ -1,0 +1,152 @@
+MICRO	  VP0091/RecusaNacPT
+LUANDA    VP0091/RecusaNacPT 
+BENGUELA  VP0091/RecusaNacPT
+CCV	  VP0091/RecusaNacPT
+PRAIA     VP0091/RecusaNacPT
+MAPUTO    VP0091/RecusaNacPT
+BEIRA	  VP0091/RecusaNacPT
+RABAT     VP0091/RecusaNacPT
+STOME	  VP0091/RecusaNacPT
+ABUJA	  VP0091/RecusaNacPT	  
+DAKAR	  VP0091/RecusaNacPT
+BISSAU	  VP0091/RecusaNacPT
+KIEV	  
+MOSCOVO   VP0091/RecusaNacPT
+XANGAI    VP0091/RecusaNacPT
+PEQUIM	  VP0091/RecusaNacPT
+CANTAO    VP0091/RecusaNacPT
+NOVADELI  VP0091/RecusaNacPT
+RIADE	  VP0091/RecusaNacPT
+DILI	  VP0091/RecusaNacPT
+HAVANA	  VP0091/RecusaNacPT
+TEERAO	  VP0091/RecusaNacPT
+
+#LUANDA
+net use \\10.212.15.5\d$ /user:administrator Mn3adm1n!
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.212.15.5\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.15.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.15.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm2 /y
+
+#BENGUELA
+net use \\10.212.4.5\d$ /user:administrator $benguela#013
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.212.4.5\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.4.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+
+#CCV
+net use \\10.212.27.5\d$ /user:administrator vcc97
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.212.27.5\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.27.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+net use \\10.212.27.14\d$ /user:administrator vcc97
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.212.27.14\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.27.14\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.27.14\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm2 /y
+
+#PRAIA
+net use \\10.212.2.4\d$ /user:administrator Mn3adm1n!
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.212.2.4\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.2.4\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.2.4\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm2 /y
+
+#MAPUTO
+net use \\10.212.16.5\d$ /user:administrator Mn3adm1n!
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.212.16.5\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.16.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+
+#BEIRA
+net use \\10.212.19.5\d$ /user:administrator Mn3adm1n!
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.212.19.5\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.19.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+
+#RABAT
+net use \\10.212.21.11\d$ /user:administrator abar97
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.212.21.11\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.21.11\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.21.11\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm2 /y
+
+#STOME
+net use \\10.212.9.4\d$ /user:administrator Mn3adm1n!
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.* \\10.212.9.4\d$\Backup /y
+
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.212.9.5\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.9.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.9.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm2 /y
+
+#ABUJA
+net use \\10.212.22.5\d$ /user:administrator Mn3adm1n!
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.212.22.5\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.22.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.22.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm2 /y
+
+#DAKAR
+net use \\10.212.7.210\d$ /user:administrator akad97
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.212.7.210\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.7.210\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.7.210\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm2 /y
+
+#BISSAU
+net use \\10.212.6.5\d$ /user:administrator Mn3adm1n!
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.212.6.5\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.6.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.212.6.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm2 /y
+
+#KIEV
+net use \\10.210.36.15\d$ /user:administrator $kiev#049
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.210.36.15\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.210.36.15\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.210.36.15\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm2 /y
+
+#MOSCOVO
+net use \\10.210.2.5\d$ /user:administrator Mn3adm1n!
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.210.2.5\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.210.2.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.210.2.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm2 /y
+
+#XANGAI
+net use \\10.211.9.5\d$ /user:administrator Mn3adm1n!
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.211.9.5\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.211.9.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.211.9.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm2 /y
+net use \\10.211.9.15\d$ /user:administrator Mn3adm1n!
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.211.9.15\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.211.9.15\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.211.9.15\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm2 /y
+
+#PEQUIM
+net use \\10.211.7.20\d$ /user:administrator uqep97
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.211.7.20\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.211.7.20\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.211.7.20\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm2 /y
+
+#CANTAO
+net use \\10.211.21.14\d$ /user:administrator Mn3adm1n!
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.211.21.14\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.211.21.14\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.211.21.14\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm2 /y
+
+#NOVADELI
+net use \\10.211.6.4\d$ /user:administrator Mn3adm1n!
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.211.6.4\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.211.6.4\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.211.6.4\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm2 /y
+
+#RIADE
+net use \\10.211.16.12\d$ /user:administrator $riade#091
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.211.16.12\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.211.16.12\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.211.16.12\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm2 /y
+
+#DILI
+net use \\10.211.3.5\d$ /user:administrator Mn3adm1n!
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.211.3.5\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.211.3.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+
+#TEERAO
+net use \\10.211.18.15\d$ /user:administrator reet97
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.211.18.15\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.211.18.15\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+
+#HAVANA
+net use \\10.213.7.5\d$ /user:administrator Mn3adm1n!
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.rdf \\10.213.7.5\d$\Aplicacoes_Web\Rpv\Reports /y
+copy C:\Ines_Silva\Forms_Aplication_Server\ccv_10g_Abril\CopiarPostos\*.fmx \\10.213.7.5\d$\Aplicacoes_Web\Rpv\CCV_Abril\Frm /y
+
